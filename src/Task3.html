@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Task#3</title>
+      <script src="js/main.js"></script>
+    <script>
+         
+        window.onload = function () {
+ 
+            /**
+             * input
+             */
+          let file = `3,4,8,5,7 38  
+     3,4,5
+     4,5,6
+     7,8,6,5
+     4,3,2,5
+     4,4,4,4
+     3,3,3,3
+     2,2,3,3
+     1,1,1,0,0,0`;
+
+            calculatePolys(file);
+
+        };
+
+        
+    </script>
+</head>
+<body>
+    <div>
+            3) Read a text file containing a set of flat polygons represented as one polygon per line.<br>
+     Each line contains a comma-separated list of side lengths (for example “3,4,8,5,7”). <br>
+     Write a function to classify the set of polygons into four mutually exclusive subsets: triangles, rectangles, squares, and everything else. <br>
+     The union of all four subsets should be the original set of polygons. <br>
+     All the sides of the polygons are connected and the angles between them are irrelevant.<br>
+     Only consider the lengths. 
+    </div>
+
+</body>
+</html>
